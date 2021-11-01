@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="download__video">
+            <input type="file" class="download__input" id="upload">
+            <label class="download__btn" for="upload">Download video</label>
+        </div>
+        <video class="video__player" id="video" src=""></video>
+        <div class="controls">
+            <div class="controls__play"><img class="play__btn" src="img/play.png" alt=""></div>
+            <div class="controls__stop"><img src="img/stop.png" alt=""></div>
+            <div class="controls__progress">
+                <input type="range" class="progress">
+            </div>
+            <div class="controls__time">00:00</div>
+        </div>
+        <!-- <embed src="media/videoplayback.avi" type="application/x-shockwave-flash"> -->
+    </div>
+</body>
+</html>
